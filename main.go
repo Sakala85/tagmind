@@ -152,11 +152,14 @@ func main() {
 		mux.Handle("/", maxBytesHandler(5<<20, mcpHandler))
 	}
 
+	// Wrap mux with CORS middleware
+	corsHandler := middleware.CORS(mux)
+
 	// Create HTTP server
 	addr := fmt.Sprintf(":%d", cfg.Port)
 	httpServer := &http.Server{
 		Addr:              addr,
-		Handler:           mux,
+		Handler:           corsHandler,
 		ReadTimeout:       30 * time.Second,
 		ReadHeaderTimeout: 10 * time.Second,
 		WriteTimeout:      0, // Disabled for SSE streams

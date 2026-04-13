@@ -1,0 +1,3134 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2026-04-11 07:22:52",
+    "containerVersion": {
+        "path": "accounts/6291214885/containers/217876806/versions/0",
+        "accountId": "6291214885",
+        "containerId": "217876806",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6291214885/containers/217876806",
+            "accountId": "6291214885",
+            "containerId": "217876806",
+            "name": "Sirdata Default Configuration Server",
+            "publicId": "GTM-KJTWSMJ7",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "1744794777331",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6291214885/containers/217876806/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                "GTM-KJTWSMJ7"
+            ],
+            "taggingServerUrls": [
+                "https://tms-preprod.ads1234.com"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "6",
+                "name": "GA4 Events Tag (Consent Mode)",
+                "type": "sgtmgaaw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "redactVisitorIp",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "epToIncludeDropdown",
+                        "value": "all"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "upToIncludeDropdown",
+                        "value": "all"
+                    }
+                ],
+                "fingerprint": "1752506928993",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "16",
+                "name": "GA4 Measurement Protocol Tag",
+                "type": "sgtmgaaw",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "redactVisitorIp",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "epToIncludeDropdown",
+                        "value": "all"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "upToIncludeDropdown",
+                        "value": "all"
+                    }
+                ],
+                "fingerprint": "1744793783212",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "19",
+                "name": "GDPR Ready Meta/Facebook CAPI by Sirdata Tag",
+                "type": "cvt_WKPWW",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "pixelId",
+                        "value": "{{Sirdata - Constant - Meta Tag - Pixel Id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendWithoutConsent",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "forwardUserData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPixelFromBrowser",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "inherit"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "generateFbpCookie",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "accessToken",
+                        "value": "{{Sirdata - Constant - Meta Tag - API Token}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "forwardIdentifiers",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPixelFromServer",
+                        "value": "true"
+                    }
+                ],
+                "fingerprint": "1747404708830",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "48",
+                "name": "Conversion Linker (Consent Mode)",
+                "type": "sgtmadscl",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkerParams",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752506920772",
+                "firingTriggerId": [
+                    "47"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "69",
+                "name": "Google Ads Remarketing (Consent Mode)",
+                "type": "sgtmadsremarket",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableDynamicRemarketing",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCustomParams",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "remarketingEventDataSource",
+                        "value": "EVENT_DATA"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752506946871",
+                "firingTriggerId": [
+                    "68"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "71",
+                "name": "Google Ads User Provided Data (Consent)",
+                "type": "sgtmawud",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    }
+                ],
+                "fingerprint": "1757670978831",
+                "firingTriggerId": [
+                    "75"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "74",
+                "name": "Google Ads Conversion - Purchase (Consent Mode)",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Sirdata - Event Data - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Sirdata - Event Data - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{Sirdata - Constant - GAds Conversion Label (Purchase)}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752506941778",
+                "firingTriggerId": [
+                    "70"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "85",
+                "name": "Google Ads Conversion - Begin Checkout (Consent Mode)",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Sirdata - Event Data - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Sirdata - Event Data - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{Sirdata - Constant - GAds Conversion Label (Begin Checkout)}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752507514990",
+                "firingTriggerId": [
+                    "81"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "86",
+                "name": "Google Ads Conversion - Sign Up (Consent Mode)",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Sirdata - Event Data - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Sirdata - Event Data - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{Sirdata - Constant - GAds Conversion Label (Sign Up)}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752507550663",
+                "firingTriggerId": [
+                    "82"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "87",
+                "name": "Google Ads Conversion - Add To Cart (Consent Mode)",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Sirdata - Event Data - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Sirdata - Event Data - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{Sirdata - Constant - GAds Conversion Label (Add To Cart)}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752507580425",
+                "firingTriggerId": [
+                    "84"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "tagId": "88",
+                "name": "Google Ads Conversion - Generate Lead (Consent Mode)",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{Sirdata - Event Data - Value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{Sirdata - Event Data - Currency}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{Sirdata - Constant - GAds Conversion Label (Generate Lead)}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1752507615343",
+                "firingTriggerId": [
+                    "83"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "5",
+                "name": "GA4 Events",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "sgtm_"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1751466492221"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "12",
+                "name": "GA4 Events - Meta Standard",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Event - Is Valid Meta Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - Meta Tag - API Token}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - Meta Tag - Pixel Id}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1751977885753"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "14",
+                "name": "GA4 Measurement Protocol Events",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Measurement Protocol Client"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1751466794720"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "47",
+                "name": "All page but G-0000000000 - With Google Ads And GA4",
+                "type": "SERVER_PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GA4 Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1751466842087"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "68",
+                "name": "All page but G-0000000000 - With Google Ads",
+                "type": "SERVER_PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1751466837778"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "70",
+                "name": "GA4 Event - Purchase - With Google Ads Conversion Label",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion Label (Purchase)}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1752507378982"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "75",
+                "name": "GA4 Events - With Google Ads and User Data (consent)",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Event - Has Valid User Data}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Global - Consent - Analytics}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1757671701088"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "81",
+                "name": "GA4 Event - Begin Checkout - With Google Ads Conversion Label",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion Label (Begin Checkout)}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "begin_checkout"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1756821179596"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "82",
+                "name": "GA4 Event - Sign Up - With Google Ads Conversion Label",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion Label (Sign Up)}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "sign_up"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1756821205281"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "83",
+                "name": "GA4 Event - Generate Lead - With Google Ads Conversion Label",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion Label (Generate Lead)}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "generate_lead"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1756821189700"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "triggerId": "84",
+                "name": "GA4 Event - Add To Cart - With Google Ads Conversion Label",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4 Events Client"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Query Param - Tid}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "G-00000000"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Sirdata - Constant - GAds Conversion Label (Add To Cart)}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "111111"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_to_cart"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1756821161463"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "9",
+                "name": "Sirdata - Global - Device - User-Agent",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-device-user-agent"
+                    }
+                ],
+                "fingerprint": "1744806550915",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "10",
+                "name": "Sirdata - Global - User - IP Address",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "Gtm-Helper-User-Ip"
+                    }
+                ],
+                "fingerprint": "1744806189503",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "11",
+                "name": "Sirdata - Event - Is Valid Meta Event",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_payment_info"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_cart"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_wishlist"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "begin_checkout"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "contact"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "customize_product"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "donate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "find_location"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "generate_lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "page_view"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "purchase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "schedule"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "search"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "sign_up"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "start_trial"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "submit_application"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "subscribe"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "view_item"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "view_item_list"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1753112104457",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "15",
+                "name": "Sirdata - Event Data - Language",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "language"
+                    }
+                ],
+                "fingerprint": "1751464826031",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "17",
+                "name": "Sirdata - Global - User - Country",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-country"
+                    }
+                ],
+                "fingerprint": "1744806177756",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "20",
+                "name": "Sirdata - Constant - Meta Tag - API Token",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668916647",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "21",
+                "name": "Sirdata - Constant - Meta Tag - Pixel Id",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668922833",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "22",
+                "name": "Sirdata - Constant - GA4 Tid",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-111111"
+                    }
+                ],
+                "fingerprint": "1757668871796",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "23",
+                "name": "Sirdata - Constant - Web Container Client - GTM ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "GTM-1111111"
+                    }
+                ],
+                "fingerprint": "1757668927473",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "25",
+                "name": "Sirdata - Global - User - City",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-city"
+                    }
+                ],
+                "fingerprint": "1744806257219",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "26",
+                "name": "Sirdata - Global - ID - First-Id",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-first-id"
+                    }
+                ],
+                "fingerprint": "1744806594195",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "27",
+                "name": "Sirdata - Global - ID - Hashed Email",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-hashed-email"
+                    }
+                ],
+                "fingerprint": "1744806629606",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "28",
+                "name": "Sirdata - Global - User - ISP (FAI)",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-isp"
+                    }
+                ],
+                "fingerprint": "1744806338244",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "29",
+                "name": "Sirdata - Global - User - Region",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-region"
+                    }
+                ],
+                "fingerprint": "1744806372856",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "30",
+                "name": "Sirdata - Global - Site - Domain",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-site-domain"
+                    }
+                ],
+                "fingerprint": "1744806399043",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "31",
+                "name": "Sirdata - Global - Site - Host",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-site-host"
+                    }
+                ],
+                "fingerprint": "1744806417258",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "32",
+                "name": "Sirdata - Global - Site - Origin",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-site-origin"
+                    }
+                ],
+                "fingerprint": "1744806438719",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "33",
+                "name": "Sirdata - Global - Server - Domain",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-server-domain"
+                    }
+                ],
+                "fingerprint": "1744806501642",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "34",
+                "name": "Sirdata - Global - Server - Host",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-site-host"
+                    }
+                ],
+                "fingerprint": "1744806517949",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "35",
+                "name": "Sirdata - Global - Device - Is Mobile",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-device-is-mobile"
+                    }
+                ],
+                "fingerprint": "1744806563919",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "36",
+                "name": "Sirdata - Global - ID - Cookieless Id (Cross-Domains)",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-cookieless-id-cross-domain"
+                    }
+                ],
+                "fingerprint": "1744806678836",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "37",
+                "name": "Sirdata - Global - ID - Cookieless Id (Domain Only)",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-cookieless-id-domain-specific"
+                    }
+                ],
+                "fingerprint": "1744806703457",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "38",
+                "name": "Sirdata - Global - Consent - Is Optout",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-optout"
+                    }
+                ],
+                "fingerprint": "1744806741899",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "39",
+                "name": "Sirdata - Global - Consent - Generic",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent"
+                    }
+                ],
+                "fingerprint": "1757671070213",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "40",
+                "name": "Sirdata - Global - Consent - Analytics",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent-analytics"
+                    }
+                ],
+                "fingerprint": "1757671047584",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "41",
+                "name": "Sirdata - Global - Consent - Basic Ads",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent-basic-ads"
+                    }
+                ],
+                "fingerprint": "1757671054819",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "42",
+                "name": "Sirdata - Global - Consent - Basic Content",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent-basic-content"
+                    }
+                ],
+                "fingerprint": "1757671063328",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "43",
+                "name": "Sirdata - Global - Consent - Personalized Ads",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent-personalized-ads"
+                    }
+                ],
+                "fingerprint": "1757671077487",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "44",
+                "name": "Sirdata - Global - Consent - Personalized Content",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-consent-personalized-content"
+                    }
+                ],
+                "fingerprint": "1757671088875",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "45",
+                "name": "Sirdata - Global - Consent - GDPR Applies",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-gdpr-applies"
+                    }
+                ],
+                "fingerprint": "1744806920098",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "46",
+                "name": "Sirdata - Query Param - Tid",
+                "type": "qp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryParamName",
+                        "value": "tid"
+                    }
+                ],
+                "fingerprint": "1751464815512",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "49",
+                "name": "Sirdata - Constant - GAds Conversion ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668876253",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "51",
+                "name": "Sirdata - Event Data - Page Url",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_location"
+                    }
+                ],
+                "fingerprint": "1751464909819",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "52",
+                "name": "Sirdata - Event Data - Client Id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "client_id"
+                    }
+                ],
+                "fingerprint": "1751464936916",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "53",
+                "name": "Sirdata - Event Data - Currency",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "EUR"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "currency"
+                    }
+                ],
+                "fingerprint": "1751464958251",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "54",
+                "name": "Sirdata - Event Data - Event Name",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "event_name"
+                    }
+                ],
+                "fingerprint": "1751465001027",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "55",
+                "name": "Sirdata - Event Data - Session Id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "ga_session_id"
+                    }
+                ],
+                "fingerprint": "1751465047581",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "56",
+                "name": "Sirdata - Event Data - IP override",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "ip_override"
+                    }
+                ],
+                "fingerprint": "1751465073409",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "57",
+                "name": "Sirdata - Event Data - Items",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "items"
+                    }
+                ],
+                "fingerprint": "1751465092224",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "58",
+                "name": "Sirdata - Event Data - Page Referrer",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_referrer"
+                    }
+                ],
+                "fingerprint": "1751465112481",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "59",
+                "name": "Sirdata - Event Data - Page Title",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "page_title"
+                    }
+                ],
+                "fingerprint": "1751465131315",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "60",
+                "name": "Sirdata - Event Data - Screen Resolution",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "screen_resolution"
+                    }
+                ],
+                "fingerprint": "1751465154900",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "61",
+                "name": "Sirdata - Event Data - Sent From",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "send_from"
+                    }
+                ],
+                "fingerprint": "1751465173760",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "62",
+                "name": "Sirdata - Event Data - Transaction Id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "transaction_id"
+                    }
+                ],
+                "fingerprint": "1751465208413",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "63",
+                "name": "Sirdata - Event Data - User Agent",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_agent"
+                    }
+                ],
+                "fingerprint": "1751465233757",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "64",
+                "name": "Sirdata - Event Data - User Data",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_data"
+                    }
+                ],
+                "fingerprint": "1751465257678",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "65",
+                "name": "Sirdata - Event Data - Value",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "value"
+                    }
+                ],
+                "fingerprint": "1751465290324",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "66",
+                "name": "Sirdata - Event Data - Event Id",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{Sirdata - Event Data - Transaction Id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "event_id"
+                    }
+                ],
+                "fingerprint": "1751465325714",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "67",
+                "name": "Sirdata - Global - User - Has Adblocker",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "gtm-helper-user-has-adblocker"
+                    }
+                ],
+                "fingerprint": "1751465401029",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "72",
+                "name": "Sirdata - Constant - GAds Conversion Label (Purchase)",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668903271",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "76",
+                "name": "Sirdata - Event Data - Search Term",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "search_term"
+                    }
+                ],
+                "fingerprint": "1751466912721",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "77",
+                "name": "Sirdata - Constant - GAds Conversion Label (Begin Checkout)",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668893437",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "78",
+                "name": "Sirdata - Constant - GAds Conversion Label (Add To Cart)",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668885108",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "79",
+                "name": "Sirdata - Constant - GAds Conversion Label (Generate Lead)",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668898568",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "80",
+                "name": "Sirdata - Constant - GAds Conversion Label (Sign Up)",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "111111"
+                    }
+                ],
+                "fingerprint": "1757668911471",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "90",
+                "name": "Sirdata - Event Data - User Data - sha256_email_address",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_data.sha256_email_address"
+                    }
+                ],
+                "fingerprint": "1757669190607",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "undefined"
+                    }
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "91",
+                "name": "Sirdata - Event Data - User Data - email_address",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_data.email_address"
+                    }
+                ],
+                "fingerprint": "1757669207965",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "undefined"
+                    }
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "92",
+                "name": "Sirdata - Event Data - User Data - sha256_phone_number",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_data.sha256_phone_number"
+                    }
+                ],
+                "fingerprint": "1757669241492",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "undefined"
+                    }
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "93",
+                "name": "Sirdata - Event Data - User Data - phone_number",
+                "type": "ed",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "keyPath",
+                        "value": "user_data.phone_number"
+                    }
+                ],
+                "fingerprint": "1757669258613",
+                "formatValue": {
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "undefined"
+                    }
+                }
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "variableId": "94",
+                "name": "Sirdata - Event - Has Valid User Data",
+                "type": "rh",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "headerName",
+                        "value": "Gtm-Helper-Request-Has-User-Data"
+                    }
+                ],
+                "fingerprint": "1757670927416",
+                "formatValue": {
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "false"
+                    }
+                }
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "RANDOM_NUMBER",
+                "name": "Random Number"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "REQUEST_PATH",
+                "name": "Request Path"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "REQUEST_METHOD",
+                "name": "Request Method"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "QUERY_STRING",
+                "name": "Query String"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "type": "VISITOR_REGION",
+                "name": "Visitor Region"
+            }
+        ],
+        "fingerprint": "1775892172761",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6291214885/containers/217876806/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "templateId": "18",
+                "name": "GDPR Ready Meta/Facebook CAPI by Sirdata",
+                "fingerprint": "1769274907611",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_WKPWW\",\n  \"version\": 1.64,\n  \"displayName\": \"GDPR Ready Meta/Facebook CAPI by Sirdata\",\n  \"categories\": [\n    \"ADVERTISING\",\n    \"ATTRIBUTION\",\n    \"CONVERSIONS\",\n    \"MARKETING\",\n    \"REMARKETING\",\n    \"SOCIAL\"\n  ],\n  \"brand\": {\n    \"id\": \"github.com_SirDataFR\",\n    \"displayName\": \"SirDataFR\",\n    \"thumbnail\": \"data:image/jpeg;base64,/9j/4QC8RXhpZgAASUkqAAgAAAAGABIBAwABAAAAAQAAABoBBQABAAAAVgAAABsBBQABAAAAXgAAACgBAwABAAAAAgAAABMCAwABAAAAAQAAAGmHBAABAAAAZgAAAAAAAABgAAAAAQAAAGAAAAABAAAABgAAkAcABAAAADAyMTABkQcABAAAAAECAwAAoAcABAAAADAxMDABoAMAAQAAAP//AAACoAQAAQAAAPAAAAADoAQAAQAAALQAAAAAAAAA/+EN8mh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDIxLTExLTA3PC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPmYzNThjNTcyLWM4ZTAtNGRjZC1iYmQzLTcyMWU5OTZmNmJmMDwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6ZGM9J2h0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvJz4KICA8ZGM6dGl0bGU+CiAgIDxyZGY6QWx0PgogICAgPHJkZjpsaSB4bWw6bGFuZz0neC1kZWZhdWx0Jz5sb2dvIG1ldGEgbWluaTwvcmRmOmxpPgogICA8L3JkZjpBbHQ+CiAgPC9kYzp0aXRsZT4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6cGRmPSdodHRwOi8vbnMuYWRvYmUuY29tL3BkZi8xLjMvJz4KICA8cGRmOkF1dGhvcj5waWVycmVhbGFpbmJhbHk8L3BkZjpBdXRob3I+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0nJwogIHhtbG5zOnhtcD0naHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyc+CiAgPHhtcDpDcmVhdG9yVG9vbD5DYW52YTwveG1wOkNyZWF0b3JUb29sPgogPC9yZGY6RGVzY3JpcHRpb24+CjwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg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BRitqGIq4eXPSlZmNfD08RHlqRuj521b4T+I7NmNolvfRjoYpNrfk2P51hSeCPE0bYbRL3PsgP8AI19TYFGB6V7dPiXFxVpJM8apw7hpO8W0fL1t4B8UXLAJo1wvvIVQfqa63Qvg7fzsr61exW0feOD53/M8D9a90wPQUYqK3EeMqK0bR9P+CXR4fwtN3leXqYvhrwzpfh228nS7ZYyfvyt8zv8AVv8AIraxRRXhznKpLmm7s9mFONOPLBWQUUUVJYUUUUAFFFFABRRRQAUUUUABqlqul2Wq2b2upW8dzbv1SQZH19j71doppuLutxOKkrM8Z8RfBeN5Hl8P33lA8iC5ywHsGHP5g1w198NPFdm5H9mGdR/FBIrg/qD+lfT+KMD0r2sPn+LorlbUl5nk1skw1V3St6Hyl/whPictj+w7/wD791qab8MPFN64DWC2qHq9xKox+Aya+mcCjA9K3nxNimrRil9/+Zzx4ew6esmzyrwv8IbCykSbXLg38g58lBtiz792/SvUbeCK3iSKBFjiQYVFGAB6AVJiivGxOLrYqXNWlc9bD4Slhly0o2CiiiuY6QooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q\\u003d\\u003d\"\n  },\n  \"description\": \"Send GA4 data to Meta/Facebook CAPI with built-in consent controls. Works on any GTM Server (GCP, Stape, Sirdata, etc.). Optimized for Sirdata’s enrichment layer, which also works on any GTM Server.\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"eventName\",\n    \"displayName\": \"Event Name Setup Method\",\n    \"selectItems\": [\n      {\n        \"value\": \"inherit\",\n        \"displayValue\": \"Inherit from GA4 (default)\"\n      },\n      {\n        \"value\": \"custom\",\n        \"displayValue\": \"Set custom event name\"\n      },\n      {\n        \"value\": \"AddPaymentInfo\",\n        \"displayValue\": \"AddPaymentInfo\"\n      },\n      {\n        \"value\": \"AddToCart\",\n        \"displayValue\": \"AddToCart\"\n      },\n      {\n        \"value\": \"AddToWishlist\",\n        \"displayValue\": \"AddToWishlist\"\n      },\n      {\n        \"value\": \"CompleteRegistration\",\n        \"displayValue\": \"CompleteRegistration\"\n      },\n      {\n        \"value\": \"Contact\",\n        \"displayValue\": \"Contact\"\n      },\n      {\n        \"value\": \"CustomizeProduct\",\n        \"displayValue\": \"CustomizeProduct\"\n      },\n      {\n        \"value\": \"Donate\",\n        \"displayValue\": \"Donate\"\n      },\n      {\n        \"value\": \"FindLocation\",\n        \"displayValue\": \"FindLocation\"\n      },\n      {\n        \"value\": \"InitiateCheckout\",\n        \"displayValue\": \"InitiateCheckout\"\n      },\n      {\n        \"value\": \"Lead\",\n        \"displayValue\": \"Lead\"\n      },\n      {\n        \"value\": \"PageView\",\n        \"displayValue\": \"PageView\"\n      },\n      {\n        \"value\": \"Purchase\",\n        \"displayValue\": \"Purchase\"\n      },\n      {\n        \"value\": \"Schedule\",\n        \"displayValue\": \"Schedule\"\n      },\n      {\n        \"value\": \"Search\",\n        \"displayValue\": \"Search\"\n      },\n      {\n        \"value\": \"StartTrial\",\n        \"displayValue\": \"StartTrial\"\n      },\n      {\n        \"value\": \"SubmitApplication\",\n        \"displayValue\": \"SubmitApplication\"\n      },\n      {\n        \"value\": \"Subscribe\",\n        \"displayValue\": \"Subscribe\"\n      },\n      {\n        \"value\": \"ViewContent\",\n        \"displayValue\": \"ViewContent\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"defaultValue\": \"inherit\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"customEventName\",\n        \"displayName\": \"custom event name\",\n        \"simpleValueType\": true,\n        \"alwaysInSummary\": true,\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"enablingConditions\": [\n          {\n            \"paramName\": \"eventName\",\n            \"paramValue\": \"custom\",\n            \"type\": \"EQUALS\"\n          }\n        ]\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"accessToken\",\n    \"displayName\": \"API Access Token\",\n    \"simpleValueType\": true,\n    \"help\": \"Mandatory. Get your API Access Token from your Meta/Facebook account. See \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/server-side-api/get-started#access-token\\\" target\\u003d\\\"_blank\\\"\\u003ehere\\u003c/a\\u003e for more information.\",\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"pixelId\",\n    \"displayName\": \"Meta/Facebook Pixel ID\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"help\": \"Mandatory. Set a single Facebook Pixel ID.\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"testId\",\n    \"displayName\": \"Test ID\",\n    \"simpleValueType\": true,\n    \"help\": \"For the\\\"Test Events\\\" feature of Meta/Facebook Events Manager.\",\n    \"valueHint\": \"TEST_ID\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"generateFbpCookie\",\n    \"checkboxText\": \"Generate \\\"_fbp\\\" and \\\"_fbc\\\" and \\\"_gtmeec\\\" cookies when consent is given.\",\n    \"simpleValueType\": true,\n    \"help\": \"\\\"_gtmeec\\\" cookie is only written/read when \\\"forwardUserData\\\" is activated. For more information please refer to this \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/fbp-and-fbc/\\\" target\\u003d\\\"_blank\\\"\\u003edocumentation\\u003c/a\\u003e.\",\n    \"defaultValue\": true,\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"forwardUserData\",\n    \"checkboxText\": \"Boost Event Match Quality by automatically sending hashed user data to Meta — like email, name, and more.\",\n    \"simpleValueType\": true,\n    \"help\": \"Automatically includes GA4 user_data and the \\\"Gtm-Helper-User-Hashed-Email\\\" header proposed by \\u003ca href\\u003d\\\"https://server-side.docs.sirdata.net/sirdata-server-side/english-1/installation/data-processing/gtm-helper-layer\\\" target\\u003d\\\"_blank\\\"\\u003eSirdata\\u003c/a\\u003e if you subscribed to it. For more information please refer to this \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/fbp-and-fbc/\\\" target\\u003d\\\"_blank\\\"\\u003edocumentation\\u003c/a\\u003e.\",\n    \"defaultValue\": true,\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"forwardIdentifiers\",\n    \"checkboxText\": \"Boost Event Match Quality by automatically sending key identifiers to Meta — like IP, user ID, and location.\",\n    \"simpleValueType\": true,\n    \"help\": \"For more information please refer to this \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/conversions-api/integration-quality-api//\\\" target\\u003d\\\"_blank\\\"\\u003edocumentation\\u003c/a\\u003e.\",\n    \"defaultValue\": true,\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"sendPixelFromBrowser\",\n    \"checkboxText\": \"Send pixel request to browser when consent is given.\",\n    \"simpleValueType\": true,\n    \"help\": \"Send a pixel request back to the browser if consent is given. Don\\u0027t forget to remove the Facebook SDK if you activate this option.\",\n    \"defaultValue\": true,\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"sendPixelFromServer\",\n    \"checkboxText\": \"Experimental: try sending pixel from server when consent is given but pixels are adblocked\",\n    \"simpleValueType\": true,\n    \"help\": \"Automatically leverage the \\\"Gtm-Helper-User-Has-Adblocker\\\" header proposed by \\u003ca href\\u003d\\\"https://server-side.docs.sirdata.net/sirdata-server-side/english-1/installation/data-processing/gtm-helper-layer\\\" target\\u003d\\\"_blank\\\"\\u003eSirdata\\u003c/a\\u003e if you subscribed to it.\",\n    \"defaultValue\": false,\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"sendWithoutConsent\",\n    \"checkboxText\": \"Experimental: send CAPI data (and pixel from server when adblocker is detected) without consent using a cookieless ID instead of cookies\",\n    \"simpleValueType\": true,\n    \"help\": \"To use the cookieless user ID, the client must subscribe to the \\\"site-only cookieless user ID\\\" option offered by \\u003ca href\\u003d\\\"https://server-side.docs.sirdata.net/sirdata-server-side/english-1/installation/data-processing/gtm-helper-layer\\\" target\\u003d\\\"_blank\\\"\\u003eSirdata\\u003c/a\\u003e, which doesn\\u0027t allow tracking accross websites.\",\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"contents\",\n    \"displayName\": \"Contents\",\n    \"groupStyle\": \"NO_ZIPPY\",\n    \"subParams\": [\n      {\n        \"type\": \"CHECKBOX\",\n        \"name\": \"contentIdsAsInteger\",\n        \"checkboxText\": \"Use of numeric Content IDs instead of string values\",\n        \"simpleValueType\": true,\n        \"help\": \"Check ONLY If you use Integers as Product Ids. Do not check in case of doubt.\",\n        \"defaultValue\": false\n      }\n    ],\n    \"help\": \"\"\n  },\n  {\n    \"displayName\": \"Server Event Data Override\",\n    \"name\": \"serverEventGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"name\": \"serverEvent\",\n        \"simpleTableColumns\": [\n          {\n            \"valueValidators\": [\n              {\n                \"type\": \"NON_EMPTY\"\n              }\n            ],\n            \"defaultValue\": \"event_id\",\n            \"displayName\": \"Property Name\",\n            \"name\": \"name\",\n            \"isUnique\": true,\n            \"type\": \"SELECT\",\n            \"selectItems\": [\n              {\n                \"value\": \"action_source\",\n                \"displayValue\": \"Action Source\"\n              },\n              {\n                \"value\": \"data_processing_options\",\n                \"displayValue\": \"Data Processing Options\"\n              },\n              {\n                \"value\": \"data_processing_options_country\",\n                \"displayValue\": \"Data Processing Options Country\"\n              },\n              {\n                \"value\": \"data_processing_options_state\",\n                \"displayValue\": \"Data Processing Options State\"\n              },\n              {\n                \"value\": \"event_id\",\n                \"displayValue\": \"Event ID\"\n              },\n              {\n                \"value\": \"event_time\",\n                \"displayValue\": \"Event Time\"\n              },\n              {\n                \"value\": \"opt_out\",\n                \"displayValue\": \"Opt Out\"\n              },\n              {\n                \"value\": \"event_source_url\",\n                \"displayValue\": \"Source URL\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Property Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"type\": \"SIMPLE_TABLE\",\n        \"newRowButtonText\": \"Add property\"\n      }\n    ],\n    \"help\": \"For more information on the data parameters you can override, please refer to this \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/server-event\\\" target\\u003d\\\"_blank\\\"\\u003edocumentation\\u003c/a\\u003e.\"\n  },\n  {\n    \"displayName\": \"User Data\",\n    \"name\": \"userDataGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"name\": \"userData\",\n        \"simpleTableColumns\": [\n          {\n            \"valueValidators\": [\n              {\n                \"type\": \"NON_EMPTY\"\n              }\n            ],\n            \"defaultValue\": \"em\",\n            \"displayName\": \"Property Name\",\n            \"name\": \"name\",\n            \"isUnique\": true,\n            \"type\": \"SELECT\",\n            \"selectItems\": [\n              {\n                \"value\": \"fbp\",\n                \"displayValue\": \"Browser ID\"\n              },\n              {\n                \"value\": \"ct\",\n                \"displayValue\": \"City\"\n              },\n              {\n                \"value\": \"client_ip_address\",\n                \"displayValue\": \"Client IP address\"\n              },\n              {\n                \"value\": \"client_user_agent\",\n                \"displayValue\": \"Client user agent\"\n              },\n              {\n                \"value\": \"fbc\",\n                \"displayValue\": \"Click ID\"\n              },\n              {\n                \"value\": \"country\",\n                \"displayValue\": \"Country\"\n              },\n              {\n                \"value\": \"db\",\n                \"displayValue\": \"Date of Birth\"\n              },\n              {\n                \"value\": \"email\",\n                \"displayValue\": \"Email\"\n              },\n              {\n                \"value\": \"em\",\n                \"displayValue\": \"Email (sha-256)\"\n              },\n              {\n                \"value\": \"external_id\",\n                \"displayValue\": \"External ID\"\n              },\n              {\n                \"value\": \"fb_login_id\",\n                \"displayValue\": \"FB Login ID\"\n              },\n              {\n                \"value\": \"fn\",\n                \"displayValue\": \"First Name\"\n              },\n              {\n                \"value\": \"ge\",\n                \"displayValue\": \"Gender\"\n              },\n              {\n                \"value\": \"ln\",\n                \"displayValue\": \"Last Name\"\n              },\n              {\n                \"value\": \"lead_id\",\n                \"displayValue\": \"Lead ID\"\n              },\n              {\n                \"value\": \"ph\",\n                \"displayValue\": \"Phone\"\n              },\n              {\n                \"value\": \"st\",\n                \"displayValue\": \"State\"\n              },\n              {\n                \"value\": \"subscription_id\",\n                \"displayValue\": \"Subscription ID\"\n              },\n              {\n                \"value\": \"zp\",\n                \"displayValue\": \"Zip\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Property Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"type\": \"SIMPLE_TABLE\",\n        \"newRowButtonText\": \"Add property\"\n      }\n    ],\n    \"help\": \"Please refer to this Refer to this documentation for more information on the user data parameters you can include in the request. The tag will automatically hash relevant data using SHA256 before transmitting the event to Facebook.\"\n  },\n  {\n    \"displayName\": \"Custom Data\",\n    \"name\": \"customDataGroup\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"type\": \"GROUP\",\n    \"subParams\": [\n      {\n        \"name\": \"customData\",\n        \"simpleTableColumns\": [\n          {\n            \"valueValidators\": [\n              {\n                \"type\": \"NON_EMPTY\"\n              }\n            ],\n            \"defaultValue\": \"\",\n            \"displayName\": \"Property Name\",\n            \"name\": \"name\",\n            \"isUnique\": true,\n            \"type\": \"TEXT\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Property Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"type\": \"SIMPLE_TABLE\",\n        \"newRowButtonText\": \"Add property\"\n      }\n    ],\n    \"help\": \"For more information on the data parameters you can override, please refer to this \\u003ca href\\u003d\\\"https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/server-event\\\" target\\u003d\\\"_blank\\\"\\u003edocumentation\\u003c/a\\u003e.\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst JSON = require('JSON');\nconst Math = require('Math');\nconst Object = require('Object');\nconst computeEffectiveTldPlusOne = require('computeEffectiveTldPlusOne');\nconst createRegex = require('createRegex');\nconst decodeUriComponent = require('decodeUriComponent');\nconst encodeUriComponent = require('encodeUriComponent');\nconst fromBase64 = require('fromBase64');\nconst generateRandom = require('generateRandom');\nconst getAllEventData = require('getAllEventData');\nconst getCookieValues = require('getCookieValues');\nconst getRequestHeader = require('getRequestHeader');\nconst getRequestQueryParameter = require('getRequestQueryParameter');\nconst getTimestampMillis = require('getTimestampMillis');\nconst getType = require('getType');\nconst makeNumber = require('makeNumber');\nconst makeString = require('makeString');\nconst parseUrl = require('parseUrl');\nconst sendHttpRequest = require('sendHttpRequest');\nconst sendPixelFromBrowser = require('sendPixelFromBrowser');\nconst setCookie = require('setCookie');\nconst sha256Sync = require('sha256Sync');\nconst testRegex = require('testRegex');\nconst toBase64 = require('toBase64');\n\nconst eventData = getAllEventData();\nconst gcsParam = getRequestQueryParameter('gcs') || eventData['x-ga-gcs'];\nconst consentGranted = (getValueFromHeader('gtm-helper-consent-personalized-ads') == 'true' || (gcsParam && gcsParam[2]=='1')|| (getValueFromHeader('gtm-helper-gdpr-applies') == 'false' && !gcsParam)) ? true : false;\nif (!data.pixelId || !data.accessToken || (!data.sendWithoutConsent && !consentGranted)) {\n  data.gtmOnSuccess();\n  return;\n}\n\nconst isValidHost = function (host) {\n  let blockRegex = createRegex('^(localhost|\\\\d{1,3}(\\\\.\\\\d{1,3}){3}|\\\\[.*\\\\]|.*:)$', 'i');\n  if (testRegex(blockRegex,host)) {\n    return false;\n  }\n  let domainRegex = createRegex('^[a-zA-Z0-9-]+(\\\\.[a-zA-Z0-9-]+)+$');\n  return testRegex(domainRegex,host);\n};\n\nconst isAdblocked = getValueFromHeader('gtm-helper-user-has-adblocker') === 'true';\nif (data.sendPixelFromServer) {\n  if (!isAdblocked) {\n    data.sendPixelFromServer = false;\n  } else {\n      data.sendPixelFromBrowser = false;\n  }\n}\nconst CAPI_PARTNER_AGENT = 'sgtm-sirdata-2.0.3';\nconst CAPI_ENDPOINT = 'https://graph.facebook.com/v23.0/' + data.pixelId + '/events?access_token=' + data.accessToken;\nconst tsMilli = getTimestampMillis();\nconst itMilli = tsMilli - (700 + generateRandom(0, 10000000) % 1301);\nconst fbpMilli = tsMilli - (15 + generateRandom(0, 10000000) % 11);\n\nconst GA4_MAPPINGS = {\n  'add_payment_info': 'AddPaymentInfo',\n  'add_to_cart': 'AddToCart',\n  'add_to_wishlist': 'AddToWishlist',\n  'begin_checkout': 'InitiateCheckout',\n  'contact': 'Contact',\n  'customize_product': 'CustomizeProduct',\n  'donate': 'Donate',\n  'find_location': 'FindLocation',\n  'generate_lead': 'Lead',\n  'page_view': 'PageView',\n  'purchase': 'Purchase',\n  'schedule': 'Schedule',\n  'search': 'Search',\n  'sign_up': 'CompleteRegistration',\n  'start_trial': 'StartTrial',\n  'submit_application': 'SubmitApplication',\n  'subscribe': 'Subscribe',\n  'view_item': 'ViewContent',\n  'view_item_list': 'Search'\n};\n\nfunction getEventName(eventName, userData) {\n  let name = userData.eventName === 'custom' ? userData.customEventName : (userData.eventName === 'inherit' ? (GA4_MAPPINGS[eventName] || eventName) : userData.eventName);\n  if (eventName == 'view_item_list' && !eventData.search_term) {\n    name = 'ViewContent';\n  }\n  return name;\n}\n\nfunction override(userData, override) {\n  if (override) {\n    override.forEach(o => {\n      userData[o.name] = o.value;\n    });\n  }\n  return userData;\n}\n\nfunction isSHA256Hashed(userData) {\n    return userData.match('^[A-Fa-f0-9]{64}$') !== null;\n}\n\nfunction hashData(userData){\n  if(userData && !isSHA256Hashed(userData)){\n    return sha256Sync(userData.toString().trim().toLowerCase(), {outputEncoding: 'hex'});\n  }\n  return userData;\n}\n\nfunction getValidSHA256Hash(userData) {\n    if (!userData || !isSHA256Hashed(userData)) {\n        return;\n    }\n    return userData;\n}\n\nfunction includes(arr, element) {\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i] === element) {\n            return true;\n        }\n    }\n    return false;\n}\n\nfunction cleanValues(userData, hash) {\n  //https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/customer-information-parameters\n  const keysToHash = ['em', 'ph', 'ge', 'db', 'ln', 'fn', 'ct', 'st', 'zp', 'country'];\n  let cleanData = {};\n  for (let key in userData) {\n    if (userData[key] && userData[key] != 'redacted_for_privacy') {\n      if (hash && includes(keysToHash, key)) {\n        cleanData[key] = hashData(userData[key]);\n      } else {\n        cleanData[key] = userData[key];\n      }\n    }\n  }\n  return cleanData;\n}\n\nfunction isValidEmail(email) {\n  if (!email || email.indexOf('@') === -1 || email.indexOf('.') === -1) {\n    return false;\n  }\n  const validChars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.@_-';\n  for (let i = 0; i < email.length; i++) {\n    if (validChars.indexOf(email[i]) === -1) {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction getValidEmail(email) {\n  if (!email) {\n    return;\n  }\n  const atIndex = email.indexOf('@');\n  const local = email.slice(0, atIndex);\n  const domain = email.slice(atIndex);\n  const cleanLocal = includes(local, '+') ? local.slice(0, local.indexOf('+')) : local;\n  email = cleanLocal + domain;\n  if (!email || !isValidEmail(email)) {\n    return;\n  }\n  return email.toLowerCase();\n}\n\nfunction isValidUUID(uuid) {\n  if (uuid.length !== 36 || uuid[8] !== '-' || uuid[13] !== '-' || uuid[18] !== '-' || uuid[23] !== '-') {\n    return false;\n  }\n  const hexChars = '0123456789abcdefABCDEF';\n  for (let i = 0; i < uuid.length; i++) {\n    if (i !== 8 && i !== 13 && i !== 18 && i !== 23) {\n      if (!includes(hexChars, uuid[i])) {\n        return false;\n      }\n    } else if (uuid[i] !== '-') {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction getValidUUID(uuid) {\n  if (!uuid || !isValidUUID(uuid)) {\n    return;\n  }\n  return uuid;\n}\n\nfunction getValueFromHeader(headerName) {\n    if (!headerName) { return; }\n    let valueFromHeader = getRequestHeader(headerName);\n    if (!valueFromHeader || valueFromHeader == 'undefined') { return; }\n    return valueFromHeader;\n}\n\nconst location = eventData.page_location || getRequestHeader('referer') || getValueFromHeader('gtm-helper-site-origin');\nconst referrer = eventData.page_referrer;\nconst originDomain = getValueFromHeader('gtm-helper-site-domain') || computeEffectiveTldPlusOne(location);\nconst subDomainIndex = data.generateFbpCookie && originDomain ? originDomain.split('.').length - 1 : 1;\n\nfunction deepEqual(a, b) {\n  if (a === b) return true;\n\n  if (\n    typeof a !== 'object' || a === null ||\n    typeof b !== 'object' || b === null\n  ) {\n    return false;\n  }\n\n  var keysA = Object.keys(a);\n  var keysB = Object.keys(b);\n  if (keysA.length !== keysB.length) return false;\n\n  for (var i = 0; i < keysA.length; i++) {\n    var key = keysA[i];\n\n    var found = false;\n    for (var j = 0; j < keysB.length; j++) {\n      if (keysB[j] === key) {\n        found = true;\n        break;\n      }\n    }\n    if (!found) return false;\n\n    if (!deepEqual(a[key], b[key])) return false;\n  }\n\n  return true;\n}\n\nfunction deepMerge(a, b) {\n  let result = {};\n\n  for (let key in a) {\n    if (a.hasOwnProperty(key)) {\n      result[key] = a[key];\n    }\n  }\n\n  for (let key in b) {\n    if (b.hasOwnProperty(key)) {\n      if (\n        typeof b[key] === 'object' && b[key] !== null &&\n        typeof result[key] === 'object' && result[key] !== null\n      ) {\n        result[key] = deepMerge(result[key], b[key]);\n      } else {\n        result[key] = b[key];\n      }\n    }\n  }\n\n  return result;\n}\n\nfunction enhanceValues(userData, actualCountry, actualCity) {\n  if (!consentGranted || !data.generateFbpCookie || !data.forwardUserData) {\n    return userData;\n  }\n  const _gtmeecCookieValues = getCookieValues('_gtmeec');\n  let enhancedValues = {};\n  if (_gtmeecCookieValues && _gtmeecCookieValues.length > 0) {\n    const encodedValue = _gtmeecCookieValues[0];\n    const b64DecodedValue = fromBase64(encodedValue);\n    if (b64DecodedValue) {\n      let jsonDecodedValue = JSON.parse(b64DecodedValue);\n      if (jsonDecodedValue) {\n        enhancedValues = jsonDecodedValue;\n      }\n    }\n  }\n  const keysToEnhance = ['em', 'ph', 'ge', 'db', 'ln', 'fn', 'st', 'zp', 'ct', 'country', 'external_id', 'fb_login_id'];\n  let enhancedData = {};\n  let enhancedDataToRecord = {};\n  for (let key of keysToEnhance) {\n    if (\n      (userData[key] && userData[key] !== 'redacted_for_privacy') ||\n      enhancedValues[key]\n    ) {\n      if (key === 'country' || key === 'ct') {\n        if (\n          userData[key] &&\n          ((key === 'country' && actualCountry) || (key === 'ct' && actualCity))\n        ) {\n          enhancedData[key] = enhancedDataToRecord[key] = userData[key];\n        } else if (enhancedValues[key]) {\n          enhancedData[key] = enhancedDataToRecord[key] = enhancedValues[key];\n        } else if (userData[key]) {\n          enhancedData[key] = userData[key];\n        }\n      } else {\n        enhancedData[key] = enhancedDataToRecord[key] = userData[key] || enhancedValues[key];\n      }\n    }\n  }\n  if (Object.keys(enhancedDataToRecord).length > 0 && !deepEqual(enhancedValues, enhancedDataToRecord)) {\n    const cookieOptions = {\n      domain: getValueFromHeader('gtm-helper-server-host') || '.' + originDomain,\n      path: '/',\n      samesite: 'Lax',\n      secure: true,\n      'max-age': 31536000,\n      httpOnly: true\n    };\n    setCookie('_gtmeec', toBase64(JSON.stringify(enhancedDataToRecord)), cookieOptions);\n  }\n  return deepMerge(userData, enhancedData);\n}\n\nfunction filterContentIds(content_id) {\n  if (!data.contentIdsAsInteger) {\n    return makeString(content_id);\n  }\n  const numericRegex = createRegex('^\\\\d+$');\n  if (testRegex(numericRegex,content_id)) {\n    return makeNumber(content_id);\n  } else {\n    return makeString(content_id);\n  }\n}\n\nfunction filterUndefined(content, replacement) {\n  if (typeof content === 'string' && content == 'undefined') {\n    return replacement;\n  }\n  return content;\n}\n\nfunction filterKeyValue(key, value) {\n  let replacement;\n  if (typeof value === 'string' && value == 'undefined') {\n    if (key == 'value' || key == 'price') {\n      replacement = 0;\n    } else if (key == 'quantity') {\n      replacement = 1;\n    }\n  }\n  if (replacement) {\n    return filterUndefined(value, replacement);\n  }\n  return value;\n}\n\nlet fbp = 'fb.' + subDomainIndex + '.' + fbpMilli + '.' + generateRandom(1000000000, 2147483647);\nlet fbc;\nif (location) {\n  const locationParsed = parseUrl(location);\n  if (locationParsed && locationParsed.searchParams.fbclid) {\n    fbc = 'fb.' + subDomainIndex + '.' + fbpMilli + '.' + decodeUriComponent(locationParsed.searchParams.fbclid);\n  } else {\n    const referrerParsed = parseUrl(referrer);\n    if (referrerParsed && referrerParsed.searchParams.fbclid) {\n      fbc = 'fb.' + subDomainIndex + '.' + fbpMilli + '.' + decodeUriComponent(referrerParsed.searchParams.fbclid);\n    }\n  }\n}\n\nif (consentGranted) {\n  let fbpFromCookie = getCookieValues('_fbp')[0];\n  if (fbpFromCookie) {\n    fbp = fbpFromCookie;\n  }\n\n  let fbcFromCookie = getCookieValues('_fbc')[0];\n  if (fbcFromCookie && !fbc) {\n    fbc = fbcFromCookie;\n  }\n}\n\nlet userIp = getValueFromHeader('gtm-helper-user-ip') || eventData.ip_override;\nlet event = {user_data: {}, custom_data: {}, original_event_data: {}};\nlet actualCountry = true;\nlet actualCity = true;\nevent.action_source = eventData.action_source ? eventData.action_source : 'website';\nevent.event_id = event.original_event_data.event_id = eventData.event_id || eventData.transaction_id || 'sirdata-sgtm-' + tsMilli + '-' + generateRandom(100000, 999999);\nevent.event_name = event.original_event_data.event_name = getEventName(eventData.event_name, data);\nevent.event_time = event.original_event_data.event_time = eventData.event_time || Math.floor(tsMilli / 1000);\nevent.original_event_data.event_source_url = event.event_source_url = location;\nevent.referrer_url = referrer;\nevent.user_data.fb_login_id = eventData.fb_login_id;\nevent.user_data.fbc = fbc;\nevent.user_data.fbp = fbp;\n\nif (consentGranted && data.forwardUserData) {\n  eventData.user_data = eventData.user_data || {};\n  event.user_data.em = getValidEmail(eventData.user_data.email) || getValidEmail(eventData.user_data.email_address) || getValidSHA256Hash(getValueFromHeader('gtm-helper-user-hashed-email') || getValidSHA256Hash(eventData.user_data.sha256_email_address));\n  event.user_data.ge = eventData.user_data.gender;\n  event.user_data.ph = eventData.user_data.phone_number || eventData.user_data.sha256_phone_number;\n  if (eventData.user_data['address[0]'] && (!eventData.user_data.address || !eventData.user_data.address[0])) {\n    eventData.user_data.address = eventData.user_data.address || {};\n    eventData.user_data.address[0] = eventData.user_data['address[0]'];\n  }\n  if (eventData.user_data.address && eventData.user_data.address[0]) {\n    // override getRequestHeader data when needed\n    event.user_data.country = eventData.user_data.address[0].country ;\n    event.user_data.ct = (eventData.user_data.address[0].city || '').replace(' ','').replace('-','');\n    event.user_data.fn = eventData.user_data.address[0].sha256_first_name || eventData.user_data.address[0].first_name;\n    event.user_data.ln = eventData.user_data.address[0].sha256_last_name || eventData.user_data.address[0].last_name;\n    event.user_data.st = eventData.user_data.address[0].region;\n    event.user_data.zp = eventData.user_data.address[0].postal_code;\n  }\n}\n\nif (data.forwardIdentifiers) {\n  // consent for stored User Ids or user-agent or ids\n  if (consentGranted) {\n    event.user_data.client_user_agent = getValueFromHeader('gtm-helper-device-user-agent') || eventData.user_agent;\n    event.user_data.lead_id = eventData.lead_id;\n    event.user_data.subscription_id = eventData.subscription_id;\n  }\n  event.user_data.external_id = eventData.external_id || eventData.user_id || getValidUUID(getValueFromHeader('gtm-helper-cookieless-id-domain-specific'));\n  event.user_data.client_ip_address = userIp;\n  if (!event.user_data.country) {\n    event.user_data.country = getValueFromHeader('gtm-helper-user-country');\n    actualCountry = false;\n  }\n  if (!event.user_data.ct) {\n    event.user_data.ct = (getValueFromHeader('gtm-helper-user-city') || '').replace(' ','').replace('-','');\n    actualCity = false;\n  }\n}\n\nlet eventCurrency = eventData.currency || '';\nlet eventValue = eventData.value || 0;\n\nevent.custom_data.order_id = event.original_event_data.order_id = eventData.transaction_id;\nevent.custom_data.search_string = eventData.search_term;\nif (event.event_name === 'InitiateCheckout') {\n  event.custom_data.num_items = eventData.items ? eventData.items.length : 0;\n}\nif (eventData.items && eventData.items.length > 0) {\n  event.custom_data.content_type = 'product';\n  if (eventData.items[0].item_category) {\n    event.custom_data.content_category = eventData.items[0].item_category;\n  }\n\n  let contents = [];\n  let contentIds = [];\n  let num_items = 0;\n  for (let i = 0; i < eventData.items.length; i++) {\n    if (eventData.items[i]) {\n      let objectQuantity = makeNumber(filterKeyValue('quantity',eventData.items[i].quantity)||1);\n      let itemId = filterContentIds(filterUndefined(eventData.items[i].item_id,'null')||'null');\n      num_items += objectQuantity;\n      contents.push({id: itemId,item_price: makeNumber(filterKeyValue('price',eventData.items[i].price)||0),quantity: objectQuantity});\n      contentIds.push(itemId);\n      if (eventData.items[i].item_value) {\n        eventValue += makeNumber(eventData.items[i].price||0) * objectQuantity;\n      }\n    }\n  }\n  event.custom_data.num_items = Math.max(1,num_items);\n  const reservedCustomParams = ['content_category', 'content_type', 'content_name', 'currency', 'search_string', 'value', 'content_ids', 'contents', 'currency', 'item_name', 'item_value', 'item_id', 'item_category', 'contents'];\n  if (eventData.items.length === 1) {\n    const keys = Object.keys(eventData.items[0]);\n    for (let j = 0; j < keys.length; j++) {\n      const key = keys[j];\n      if (reservedCustomParams.indexOf(key) === -1) {\n        event.custom_data[key] = filterKeyValue(key,eventData.items[0][key]);\n      }\n    }\n  }\n  if (contents && contents.length > 0) {\n    event.custom_data.contents = contents;\n  }\n  if (contentIds && contentIds.length > 0) {\n    event.custom_data.content_ids = contentIds;\n  }\n  if (!eventCurrency && eventData.items[0].currency) {\n    eventCurrency = eventData.items[0].currency;\n  }\n  if (eventData.items[0].item_name) {\n    event.custom_data.content_name = eventData.items[0].item_name;\n  }\n}\nif (eventCurrency) {\n  event.custom_data.currency = eventCurrency;\n}\nif (eventValue) {\n  event.custom_data.value = eventValue;\n}\n//patch if clear email and no hashed email\nif (data.userData && data.userData.email && !data.userData.em) {\n  data.userData.em = data.userData.email;\n}\nevent = cleanValues(override(event, data.serverEvent), false);\nevent.custom_data = cleanValues(override(event.custom_data, data.customData), false);\nevent.user_data = cleanValues(override(event.user_data, data.userData), true);\nevent.user_data = enhanceValues(event.user_data, actualCountry, actualCity);\n\nconst eventRequest = {data: [event], partner_agent: CAPI_PARTNER_AGENT};\nconst testCode = eventData.test_event_code || data.testId;\nif (testCode) {\n  eventRequest.test_event_code = testCode;\n}\n\nlet requests = 1;\nfunction triggerResult(success) {\n  if (requests >0) { return ;}\n  if (success) {\n    data.gtmOnSuccess();\n  } else {\n    data.gtmOnFailure();\n  }\n}\n\nif (\n  (consentGranted && (data.sendPixelFromBrowser || data.sendPixelFromServer)) || (data.sendWithoutConsent && data.sendPixelFromServer)\n) {\n  let url = 'https://www.facebook.com/tr/?ev='+ encodeUriComponent(event.event_name) + '&id=' + encodeUriComponent(data.pixelId.toString());\n  if (event.event_id) {\n    url += '&eid=' + encodeUriComponent(event.event_id);\n  }\n  if (fbp) {\n    url += '&fbp=' + encodeUriComponent(fbp);\n  }\n  if (fbc) {\n    url += '&fbc=' + encodeUriComponent(fbc);\n  }\n  if (event.event_source_url) {\n    url += '&dl=' + encodeUriComponent(event.event_source_url);\n  }\n  if (event.referrer_url) {\n    url += '&rl=' + encodeUriComponent(event.referrer_url);\n  }\n  if (eventData.screen_resolution) {\n    let screenWidth = eventData.screen_resolution.split('x')[0]||'';\n    if (screenWidth) {\n      url += '&sw=' + encodeUriComponent(screenWidth);\n    }\n    let screenHeight = eventData.screen_resolution.split('x')[1]||'';\n    if (screenHeight) {\n      url += '&sh=' + encodeUriComponent(screenHeight);\n    }\n  }\n\n  const userParams = ['em', 'ph', 'ge', 'db', 'ln', 'fn', 'st', 'zp', 'external_id', 'ct', 'country'];\n  for (let i = 0; i < userParams.length; i++) {\n    if (userParams[i] && event.user_data[userParams[i]]) {\n      url += '&ud[' + userParams[i] + ']=' + encodeUriComponent(event.user_data[userParams[i]].toString());\n    }\n  }\n\n  const cdKeys = Object.keys(event.custom_data);\n  for (let i = 0; i < cdKeys.length; i++) {\n    const cdKey = cdKeys[i];\n    if (cdKey !== 'content_ids' && cdKey !== 'contents' && event.custom_data[cdKey]) {\n      url += '&cd[' + cdKey + ']=' + encodeUriComponent(event.custom_data[cdKey].toString());\n    }\n  }\n  for (let i = 0; i < event.custom_data.length; i++) {\n      if (i != 'content_ids' && i != 'contents' && event.custom_data[i]) {\n          url += '&cd[' + i + ']=' + encodeUriComponent(event.custom_data[event.custom_data[i]].toString());\n      }\n  }\n  if (event.custom_data.content_ids) {\n    url += '&cd[content_ids]=' + encodeUriComponent(JSON.stringify(event.custom_data.content_ids));\n  }\n  if (event.custom_data.contents) {\n    url += '&cd[contents]=' + encodeUriComponent(JSON.stringify(event.custom_data.contents));\n  }\n  url += '&ts=' + tsMilli +'&it=' + itMilli;\n  if (data.sendPixelFromBrowser) {\n    sendPixelFromBrowser(url);\n  } else if (data.sendPixelFromServer && userIp) {\n    requests = 2;\n    url += '&ud[client_ip_address]=' + userIp;\n    let headersToSend = {\n      'x-forwarded-for': userIp,\n      'cache-control': 'no-cache',\n      'accept': 'image/*',\n    };\n\n    const xForwardedProto = getValueFromHeader('x-forwarded-proto');\n    if (xForwardedProto) {\n      headersToSend['x-forwarded-proto'] = xForwardedProto;\n    }\n\n    const forwarded = getValueFromHeader('forwarded');\n    if (forwarded) {\n      headersToSend.forwarded = forwarded;\n    }\n\n    const originHost = getValueFromHeader('gtm-helper-site-host');\n    if (isValidHost(originHost)) {\n      headersToSend['x-forwarded-host'] = originHost;\n    }\n\n    let ua = getValueFromHeader('gtm-helper-device-user-agent') || getValueFromHeader('user-agent');\n    if (ua) {\n      headersToSend['user-agent'] = ua;\n    }\n\n    let acceptEncoding = getValueFromHeader('accept-encoding');\n    if (acceptEncoding) {\n      headersToSend['accept-encoding'] = acceptEncoding;\n    }\n\n    let acceptLanguage = getValueFromHeader('accept-language');\n    if (acceptLanguage) {\n      headersToSend['accept-language'] = acceptLanguage;\n    }\n\n    let origin = getValueFromHeader('origin');\n    if (origin) {\n      headersToSend.origin = origin;\n    }\n\n    let referer = getValueFromHeader('referer');\n    if (referer) {\n      headersToSend.referer = referer;\n    }\n\n    sendHttpRequest(url, (statusCode, headers, body) => {\n      requests = requests - 1;\n      if (statusCode >= 200 && statusCode < 300) {\n        triggerResult(true);\n      } else {\n        triggerResult(false);\n      }\n    }, {\n        headers: headersToSend,\n        method: 'GET'\n    }, null);\n  }\n}\n\nsendHttpRequest(CAPI_ENDPOINT, (statusCode, headers, body) => {\n  requests = requests - 1;\n  if (statusCode >= 200 && statusCode < 300) {\n    if (consentGranted) {\n      if (data.generateFbpCookie) {\n        const cookieOptions = {\n          domain: '.' + originDomain,\n          path: '/',\n          samesite: 'Lax',\n          secure: true,\n          'max-age': 31536000,\n          httpOnly: false\n        };\n        setCookie('_fbp', fbp, cookieOptions);\n        if (fbc) {\n          setCookie('_fbc', fbc, cookieOptions);\n        }\n      }\n    }\n    triggerResult(true);\n  } else {\n    triggerResult(false);\n  }\n}, {headers: {'content-type': 'application/json'}, method: 'POST'}, JSON.stringify(eventRequest));\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_event_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"eventDataAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"set_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedCookies\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"_fbc\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"_fbp\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"_gtmeec\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://*.facebook.com/\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"cookieNames\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"_fbc\"\n              },\n              {\n                \"type\": 1,\n                \"string\": \"_fbp\"\n              },\n              {\n                \"type\": 1,\n                \"string\": \"_gtmeec\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_request\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"headerWhitelist\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-consent-personalized-ads\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-user-hashed-email\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-user-country\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-user-city\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-device-user-agent\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-user-has-adblocker\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-user-ip\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-site-origin\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-site-domain\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-server-host\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-gdpr-applies\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-cookieless-id-domain-specific\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"referer\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gtm-helper-site-host\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"x-forwarded-proto\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"forwarded\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"accept-encoding\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"accept-language\"\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"headerName\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"origin\"\n                  }\n                ]\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"queryParametersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"remoteAddressAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"headersAllowed\",\n          \"value\": {\n            \"type\": 8,\n            \"boolean\": true\n          }\n        },\n        {\n          \"key\": \"queryParameterAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"requestAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"queryParameterWhitelist\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"queryParameter\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"gcs\"\n                  }\n                ]\n              }\n            ]\n          }\n        },\n        {\n          \"key\": \"headerAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_pixel_from_browser\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://www.facebook.com/\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios:\n- name: Check generic errors\n  code: |-\n    const mockData = {\n      // Mocked field values\n    };\n\n    // Call runCode to run the template's code.\n    runCode(mockData);\n\n    // Verify that the tag finished successfully.\n    assertApi('gtmOnSuccess').wasCalled();\nsetup: ''\n\n\n___NOTES___\n\nCreated on 21/11/2022, 20:30:02\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "SirDataFR",
+                    "repository": "sirdata_templates_sgtm_meta_capi",
+                    "version": "d0158d1b35490ed0778f20fb79d378b056da385b",
+                    "signature": "c67341dc7607a917d43af75a301d4638c873e681dc044d0a23540dcd8053c789",
+                    "galleryTemplateId": "WKPWW"
+                }
+            }
+        ],
+        "client": [
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "clientId": "3",
+                "name": "Web Container Client",
+                "type": "gtm_client",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateResponseCompression",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateGeoResolution",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateDependencyServing",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "allowedContainerIds",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "containerId",
+                                        "value": "{{Sirdata - Constant - Web Container Client - GTM ID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "containerId",
+                                        "value": "{{Sirdata - Constant - GA4 Tid}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "containerId",
+                                        "value": "AW-{{Sirdata - Constant - GAds Conversion ID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "containerId",
+                                        "value": "G-0000000000"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "region",
+                        "value": "{{Visitor Region}}"
+                    }
+                ],
+                "priority": 50,
+                "fingerprint": "1757499794756"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "clientId": "4",
+                "name": "GA4 Measurement Protocol Client",
+                "type": "mpaw_client",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "activationPath",
+                        "value": "/mp/collect"
+                    }
+                ],
+                "priority": 150,
+                "fingerprint": "1744793678768"
+            },
+            {
+                "accountId": "6291214885",
+                "containerId": "217876806",
+                "clientId": "89",
+                "name": "GA4 Events Client",
+                "type": "gaaw_client",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateDefaultPaths",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieManagement",
+                        "value": "js"
+                    }
+                ],
+                "priority": 100,
+                "fingerprint": "1757430421980"
+            }
+        ]
+    }
+}

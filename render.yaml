@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: gtm-mcp-server
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: BASE_URL
+        sync: false  # Set this to your Render URL after first deploy
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true  # Render will auto-generate this
+      - key: LOG_LEVEL
+        value: info

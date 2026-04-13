@@ -10,6 +10,9 @@ COPY prisma ./prisma/
 # Install dependencies
 RUN npm ci
 
+# Create public directory if it doesn't exist
+RUN mkdir -p /app/public
+
 # Copy source code
 COPY . .
 
